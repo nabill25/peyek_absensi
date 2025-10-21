@@ -1,0 +1,34 @@
+name: peyek_absensi
+description: Aplikasi absensi & penggajian karyawan (LBS)
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  supabase_flutter: ^2.10.3
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  geolocator: ^12.0.0
+  permission_handler: ^11.3.1
+  intl: ^0.20.2
+  uuid: ^4.5.1
+  camera: ^0.11.0
+  google_mlkit_face_detection: ^0.12.0
+  tflite_flutter: ^0.10.4
+  image: ^4.2.0 # untuk crop/resize pixel
+  collection: ^1.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/models/mobilefacenet.tflite

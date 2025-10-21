@@ -1,0 +1,33 @@
+# Flutter / Dart
+.dart_tool/
+.buildlog/
+.packages
+.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+.melos_tool/
+.melos_workspace/
+coverage/
+build/
+
+# Android
+android/.gradle/
+android/app/build/
+*.keystore
+*.jks
+android/local.properties
+android/key.properties
+
+# iOS
+ios/Pods/
+ios/.generated/
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Env/Secrets
+.env
+.env.*
+lib/secrets.dart
